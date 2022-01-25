@@ -151,6 +151,10 @@ a {
   font-size: 18px;
 }
 
+img {
+  width: 100%;
+}
+
 /* Flex */
 .flex {
   display: flex;
@@ -159,6 +163,9 @@ a {
 }
 .start {
   justify-content: flex-start;
+}
+.stretch {
+  align-items: stretch;
 }
 /* Container */
 .container {
@@ -174,4 +181,57 @@ a {
 }
 .nav-links li {
   margin-right: 38px;
+}
+
+main {
+  margin-top: 32px;
+}
+
+/* Lists */
+.col {
+  width: 30.33%;
+  background: #005979;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.6);
+}
+
+.col ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.col ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.col li {
+  margin-bottom: 10px;
+}
+
+.first {
+  margin-left: 10px;
+}
+
+.inner-ol {
+  margin-left: 32px;
+}
+.inner-ul {
+  margin-left: 40px;
+}
+.inner-ul li {
+  list-style-type: square;
+}
+
+.list-marker-img li {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 18px;
+}
+.list-marker-img img {
+  width: 32px;
+}
+.list {
+  margin-bottom: 16px;
 }
