@@ -129,3 +129,49 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  background: #d4cea7;
+  font-size: 16px;
+  color: #252c22;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.start {
+  justify-content: flex-start;
+}
+/* Container */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #f96115;
+  padding: 32px 0;
+}
+.nav-links li {
+  margin-right: 38px;
+}
